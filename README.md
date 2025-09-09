@@ -1,2 +1,2 @@
 # Aula-6-
-Terminando o Jogo
+Finalização de um jogo simples com o intuito de Cadeia Alimentar
