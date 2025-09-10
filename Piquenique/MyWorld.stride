@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="MyWorld" extends="World" extends-java="World" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class MyWorld.</javadoc>
+            <params/>
+            <throws/>
+            <delegate target="super" params="600,400,1" params-java="600, 400, 1"/>
+            <body>
+                <call expression="prepare()" expression-java="prepare()" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="private" type="void" type-java="void" name="prepare" enable="true">
+            <javadoc xml:space="preserve">Prepare the world for the start of the program.
+That is: create the initial objects and add them to the world.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="formiga" type-java="formiga" name="formiga" value="new formiga()" value-java=" new formiga()" enable="true"/>
+                <call expression="addObject(formiga,43,181)" expression-java="addObject(formiga, 43, 181)" enable="true"/>
+                <variable type="cupcake" type-java="cupcake" name="cupcake" value="new cupcake()" value-java=" new cupcake()" enable="true"/>
+                <call expression="addObject(cupcake,103,49)" expression-java="addObject(cupcake, 103, 49)" enable="true"/>
+                <variable type="cupcake" type-java="cupcake" name="cupcake2" value="new cupcake()" value-java=" new cupcake()" enable="true"/>
+                <call expression="addObject(cupcake2,516,46)" expression-java="addObject(cupcake2, 516, 46)" enable="true"/>
+                <variable type="cupcake" type-java="cupcake" name="cupcake3" value="new cupcake()" value-java=" new cupcake()" enable="true"/>
+                <call expression="addObject(cupcake3,524,187)" expression-java="addObject(cupcake3, 524, 187)" enable="true"/>
+                <variable type="cupcake" type-java="cupcake" name="cupcake4" value="new cupcake()" value-java=" new cupcake()" enable="true"/>
+                <call expression="addObject(cupcake4,335,318)" expression-java="addObject(cupcake4, 335, 318)" enable="true"/>
+                <variable type="cupcake" type-java="cupcake" name="cupcake5" value="new cupcake()" value-java=" new cupcake()" enable="true"/>
+                <call expression="addObject(cupcake5,280,57)" expression-java="addObject(cupcake5, 280, 57)" enable="true"/>
+                <variable type="cupcake" type-java="cupcake" name="cupcake6" value="new cupcake()" value-java=" new cupcake()" enable="true"/>
+                <call expression="addObject(cupcake6,119,317)" expression-java="addObject(cupcake6, 119, 317)" enable="true"/>
+                <variable type="cupcake" type-java="cupcake" name="cupcake7" value="new cupcake()" value-java=" new cupcake()" enable="true"/>
+                <call expression="addObject(cupcake7,512,318)" expression-java="addObject(cupcake7, 512, 318)" enable="true"/>
+                <variable type="cupcake" type-java="cupcake" name="cupcake8" value="new cupcake()" value-java=" new cupcake()" enable="true"/>
+                <call expression="addObject(cupcake8,295,182)" expression-java="addObject(cupcake8, 295, 182)" enable="true"/>
+                <variable type="Sapo" type-java="Sapo" name="sapo" value="new Sapo()" value-java=" new Sapo()" enable="true"/>
+                <call expression="addObject(sapo,400,56)" expression-java="addObject(sapo, 400, 56)" enable="true"/>
+                <variable type="Sapo" type-java="Sapo" name="sapo2" value="new Sapo()" value-java=" new Sapo()" enable="true"/>
+                <call expression="addObject(sapo2,227,331)" expression-java="addObject(sapo2, 227, 331)" enable="true"/>
+                <variable type="Sapo" type-java="Sapo" name="sapo3" value="new Sapo()" value-java=" new Sapo()" enable="true"/>
+                <call expression="addObject(sapo3,180,198)" expression-java="addObject(sapo3, 180, 198)" enable="true"/>
+                <variable type="Sapo" type-java="Sapo" name="sapo4" value="new Sapo()" value-java=" new Sapo()" enable="true"/>
+                <call expression="addObject(sapo4,412,192)" expression-java="addObject(sapo4, 412, 192)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
