@@ -1,2 +1,2 @@
 # Aula-6-
-Finalização de um jogo simples com o intuito de Cadeia Alimentar
+Finalizando um jogo, onde o intuito é que a Formiga coma os Cupckes e ao mesmo temnpo fugindo dos saposn que correm atrás dela 
